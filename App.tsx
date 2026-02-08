@@ -1,11 +1,11 @@
 import React from 'react';
-import Navigation from './components/Navigation';
-import Hero from './components/Hero';
-import ExpertiseSection from './components/ExpertiseSection';
-import CaseStudyCard from './components/CaseStudyCard';
-import ContactSection from './components/ContactSection';
-import CareerPathSection from './components/CareerPathSection';
-import { CASE_STUDIES } from './constants';
+import Navigation from './components/Navigation.tsx';
+import Hero from './components/Hero.tsx';
+import ExpertiseSection from './components/ExpertiseSection.tsx';
+import CaseStudyCard from './components/CaseStudyCard.tsx';
+import ContactSection from './components/ContactSection.tsx';
+import CareerPathSection from './components/CareerPathSection.tsx';
+import { CASE_STUDIES } from './constants.ts';
 
 const App: React.FC = () => {
   return (
