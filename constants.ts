@@ -107,7 +107,8 @@ export const CASE_STUDIES: CaseStudy[] = [
       { label: 'Prep Time', value: '-40%' },
       { label: 'Engagement', value: 'Strong' }
     ],
-    content: 'A hands-on case study in prototyping and user-centric design to solve everyday logistical friction.'
+    content: 'A hands-on case study in prototyping and user-centric design to solve everyday logistical friction.',
+    link: 'https://yummi-plan-smart.lovable.app/welcome'
   },
   {
     id: 'rpb-optimization',

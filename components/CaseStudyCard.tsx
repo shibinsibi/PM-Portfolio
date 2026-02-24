@@ -103,6 +103,22 @@ const CaseStudyCard: React.FC<Props> = ({ project }) => {
                     ))}
                   </ul>
                 </section>
+
+                {project.link && (
+                  <section className="pt-6">
+                    <a 
+                      href={project.link} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center px-8 py-4 bg-[#008B8B] text-white rounded-xl font-bold text-sm hover:bg-[#007A7A] transition-all shadow-lg shadow-[#008B8B]/20 group/link"
+                    >
+                      View Live Prototype
+                      <svg className="w-4 h-4 ml-2 group-hover/link:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                      </svg>
+                    </a>
+                  </section>
+                )}
               </div>
               
               <div className="lg:col-span-5">

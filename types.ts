@@ -11,6 +11,7 @@ export interface CaseStudy {
   impact: string[];
   metrics: { label: string; value: string }[];
   content: string;
+  link?: string;
 }
 
 export interface Skill {
